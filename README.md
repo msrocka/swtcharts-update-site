@@ -22,3 +22,13 @@ https://msrocka.github.io/swtcharts-update-site/target/repository
 ```
 
 ![Adding an software/update/p2-repository site](./usage.png)
+
+## Rebuilding/Updating it
+This update site was created with the [p2-maven-plugin](https://github.com/reficio/p2-maven-plugin)
+by following [this quick tutorial](https://blog.sandra-parsick.de/2017/09/22/generate-p2-repository-from-maven-artifacts-in-2017/).
+First, the SWT Charts plugins need to be installed in your local Maven repository.
+The script [bin/install.bat](./bin/install.bat) shows how to do it. Then, you
+need to configure the p2-maven-plugin in the `pom.xml` and just run `mvn package`
+to create the site under `target/repository`. If you have Python 3 installed
+you can quickly test it locally via `python -m http.server <port>`, see also the
+[server.bat][./server.bat] script.
