@@ -10,3 +10,15 @@ see the [SWT Charts website](http://www.swtchart.org/) or their
 newer versions. The SWT Charts plugins are licensed under the
 [Eclipse Public License - v 1.0](https://www.eclipse.org/legal/epl-v10.html).
 You can find a copy of this license in the file [EPLv1.0.txt](./EPLv1.0.txt).
+
+## Usage
+The content of this repository is pushed to the `gh-pages` branch so that it is
+hosted as a static site on Github: https://msrocka.github.io/swtcharts-update-site/.
+To use it as software/update/p2-repository site in Eclipse, you need to add the
+site with the following URL:
+
+```
+https://msrocka.github.io/swtcharts-update-site/target/repository
+```
+
+![Adding an software/update/p2-repository site](./usage.png)
