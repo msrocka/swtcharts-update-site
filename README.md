@@ -31,4 +31,4 @@ The script [bin/install.bat](./bin/install.bat) shows how to do it. Then, you
 need to configure the p2-maven-plugin in the `pom.xml` and just run `mvn package`
 to create the site under `target/repository`. If you have Python 3 installed
 you can quickly test it locally via `python -m http.server <port>`, see also the
-[server.bat][./server.bat] script.
+[server.bat](./server.bat) script.
