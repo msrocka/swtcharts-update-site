@@ -28,16 +28,16 @@
                             <featureDefinitions>
                                 <feature>
                                     <id>swtcharts.feature</id>
-                                    <version>0.10.0</version>
+                                    <version>0.7.0</version>
                                     <label>SWT Charts</label>
                                     <providerName>swtchart.org</providerName>
                                     <license>Eclipse Public License - v 1.0</license>
                                     <artifacts>
                                         <artifact>
-                                            <id>org.swtchart:swtchart:jar:0.10.0</id>id>
+                                            <id>org.swtchart:swtchart:jar:0.7.0</id>id>
                                         </artifact>
                                         <artifact>
-                                            <id>org.swtchart:swtchart-ext:jar:0.10.0</id>id>
+                                            <id>org.swtchart:swtchart-extensions:jar:0.7.0</id>id>
                                         </artifact>
                                     </artifacts>
                                 </feature>

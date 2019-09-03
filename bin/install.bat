@@ -1,13 +1,13 @@
 start mvn install:install-file ^
-  -Dfile=org.swtchart_0.10.0.v20160212.jar ^
+  -Dfile=org.eclipse.swtchart-0.7.0-201906051446.jar ^
   -DgroupId=org.swtchart ^
   -DartifactId=swtchart ^
-  -Dversion=0.10.0 ^
+  -Dversion=0.7.0 ^
   -Dpackaging=jar
 
 start mvn install:install-file ^
-  -Dfile=org.swtchart.ext_0.10.0.v20160212.jar ^
+  -Dfile=org.eclipse.swtchart.extensions-0.7.0-201906051446.jar ^
   -DgroupId=org.swtchart ^
-  -DartifactId=swtchart-ext ^
-  -Dversion=0.10.0 ^
+  -DartifactId=swtchart-extensions ^
+  -Dversion=0.7.0 ^
   -Dpackaging=jar
